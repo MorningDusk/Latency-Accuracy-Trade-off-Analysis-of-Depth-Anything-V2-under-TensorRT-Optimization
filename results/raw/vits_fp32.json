@@ -1,0 +1,20 @@
+{
+  "model": "vits",
+  "precision": "fp32",
+  "engine_path": "engines/dav2_vits_fp32.engine",
+  "mean_ms": 20.608481922149657,
+  "median_ms": 20.546560287475586,
+  "std_ms": 0.3976527750267857,
+  "p95_ms": 20.850791263580323,
+  "p99_ms": 21.0418785858154,
+  "min_ms": 20.152095794677734,
+  "max_ms": 24.30259132385254,
+  "fps": 48.52370998395648,
+  "num_iter": 200,
+  "num_warmup": 50,
+  "vram_used_MB": 0.0,
+  "vram_total_MB": 755.9296875,
+  "power_mean_W": 47.602549999999994,
+  "power_max_W": 50.504,
+  "gpu_name": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}
