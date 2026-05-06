@@ -1,6 +1,5 @@
 Depth-Anything-V2/
 
-# Large binary files — exceed GitHub's 100MB per-file limit
 engines/
 checkpoints/
 onnx_models/
