@@ -1,0 +1,841 @@
+{
+  "model": "vitb",
+  "precision": "fp16",
+  "num_iter": 100,
+  "layers": {
+    "Reformatting CopyNode for Input Tensor 0 to /patch_embed/proj/Conv": {
+      "mean_ms": 0.06190586667507887,
+      "std_ms": 0.018756561773576222,
+      "count": 120,
+      "total_ms": 7.428704001009464
+    },
+    "/patch_embed/proj/Conv": {
+      "mean_ms": 0.12052480081717173,
+      "std_ms": 0.005716084579351235,
+      "count": 120,
+      "total_ms": 14.462976098060608
+    },
+    "__myl_ReshTranConcAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_0": {
+      "mean_ms": 0.022101333333800235,
+      "std_ms": 0.0012581966598591114,
+      "count": 120,
+      "total_ms": 2.6521600000560284
+    },
+    "__mye62953+__mye62941+__mye62929_myl2_1": {
+      "mean_ms": 0.12164266686886549,
+      "std_ms": 0.004228048932141677,
+      "count": 120,
+      "total_ms": 14.597120024263859
+    },
+    "_gemm_mha_v2_myl2_2": {
+      "mean_ms": 0.17493333493669827,
+      "std_ms": 0.005373696424491538,
+      "count": 120,
+      "total_ms": 20.992000192403793
+    },
+    "/blocks.0/attn/proj/MatMul_myl2_3": {
+      "mean_ms": 0.044177066814154384,
+      "std_ms": 0.0015031994856147238,
+      "count": 120,
+      "total_ms": 5.301248017698526
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_4": {
+      "mean_ms": 0.01335466660093516,
+      "std_ms": 0.0004462696584509394,
+      "count": 120,
+      "total_ms": 1.6025599921122193
+    },
+    "__myl_Fc_myl2_5": {
+      "mean_ms": 0.19954346530139447,
+      "std_ms": 0.006237066217075051,
+      "count": 120,
+      "total_ms": 23.945215836167336
+    },
+    "/blocks.0/mlp/fc2/MatMul_myl2_6": {
+      "mean_ms": 0.17143466857572395,
+      "std_ms": 0.0050798787801811275,
+      "count": 120,
+      "total_ms": 20.572160229086876
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_7": {
+      "mean_ms": 0.01314133331955721,
+      "std_ms": 0.0005503833189054493,
+      "count": 120,
+      "total_ms": 1.5769599983468652
+    },
+    "__mye63068+__mye63056+__mye63044_myl2_8": {
+      "mean_ms": 0.1208832003797094,
+      "std_ms": 0.0037620672318111185,
+      "count": 120,
+      "total_ms": 14.505984045565128
+    },
+    "_gemm_mha_v2_myl2_9": {
+      "mean_ms": 0.17487360176940758,
+      "std_ms": 0.005526220252133356,
+      "count": 120,
+      "total_ms": 20.98483221232891
+    },
+    "/blocks.1/attn/proj/MatMul_myl2_10": {
+      "mean_ms": 0.044074666779488327,
+      "std_ms": 0.0014262415108041322,
+      "count": 120,
+      "total_ms": 5.288960013538599
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_11": {
+      "mean_ms": 0.01320106661102424,
+      "std_ms": 0.00045403415249900265,
+      "count": 120,
+      "total_ms": 1.5841279933229089
+    },
+    "__myl_Fc_myl2_12": {
+      "mean_ms": 0.19875839787224928,
+      "std_ms": 0.006153094326305659,
+      "count": 120,
+      "total_ms": 23.851007744669914
+    },
+    "/blocks.1/mlp/fc2/MatMul_myl2_13": {
+      "mean_ms": 0.17200640141963958,
+      "std_ms": 0.004763640324833268,
+      "count": 120,
+      "total_ms": 20.64076817035675
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_14": {
+      "mean_ms": 0.013209599939485391,
+      "std_ms": 0.0004463511287273848,
+      "count": 120,
+      "total_ms": 1.585151992738247
+    },
+    "__mye63183+__mye63171+__mye63159_myl2_15": {
+      "mean_ms": 0.12068693408121665,
+      "std_ms": 0.0037421457359809607,
+      "count": 120,
+      "total_ms": 14.482432089745998
+    },
+    "_gemm_mha_v2_myl2_16": {
+      "mean_ms": 0.17481386822958786,
+      "std_ms": 0.005505183452316657,
+      "count": 120,
+      "total_ms": 20.977664187550545
+    },
+    "/blocks.2/attn/proj/MatMul_myl2_17": {
+      "mean_ms": 0.04419413348659873,
+      "std_ms": 0.0014237887179945994,
+      "count": 120,
+      "total_ms": 5.303296018391848
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_18": {
+      "mean_ms": 0.01300480004089574,
+      "std_ms": 0.0006000090289472223,
+      "count": 120,
+      "total_ms": 1.5605760049074888
+    },
+    "__myl_Fc_myl2_19": {
+      "mean_ms": 0.19860479806860287,
+      "std_ms": 0.006160829728607586,
+      "count": 120,
+      "total_ms": 23.832575768232346
+    },
+    "/blocks.2/mlp/fc2/MatMul_myl2_20": {
+      "mean_ms": 0.1701034684975942,
+      "std_ms": 0.004619709979335678,
+      "count": 120,
+      "total_ms": 20.412416219711304
+    },
+    "__myl_MulAddCastMeanSubMulMean_myl2_21": {
+      "mean_ms": 0.02200746666640043,
+      "std_ms": 0.000944043105816582,
+      "count": 120,
+      "total_ms": 2.640895999968052
+    },
+    "__myl_AddSqrtDivMulCastMulAddMoveSlicTranReshMulAdd_myl2_22": {
+      "mean_ms": 0.03365546694646279,
+      "std_ms": 0.0009974879777563304,
+      "count": 120,
+      "total_ms": 4.038656033575535
+    },
+    "__mye63298+__mye63286+__mye63274_myl2_23": {
+      "mean_ms": 0.12091733409712711,
+      "std_ms": 0.003738144948332608,
+      "count": 120,
+      "total_ms": 14.510080091655254
+    },
+    "_gemm_mha_v2_myl2_24": {
+      "mean_ms": 0.17485653447608154,
+      "std_ms": 0.005569586182412099,
+      "count": 120,
+      "total_ms": 20.982784137129784
+    },
+    "/blocks.3/attn/proj/MatMul_myl2_25": {
+      "mean_ms": 0.04412586679682136,
+      "std_ms": 0.001489769554702645,
+      "count": 120,
+      "total_ms": 5.295104015618563
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_26": {
+      "mean_ms": 0.013286399942201873,
+      "std_ms": 0.00044757305642221883,
+      "count": 120,
+      "total_ms": 1.5943679930642247
+    },
+    "__myl_Fc_myl2_27": {
+      "mean_ms": 0.2042026650160551,
+      "std_ms": 0.057279598019888606,
+      "count": 120,
+      "total_ms": 24.504319801926613
+    },
+    "/blocks.3/mlp/fc2/MatMul_myl2_28": {
+      "mean_ms": 0.17045333484808603,
+      "std_ms": 0.004795512873764726,
+      "count": 120,
+      "total_ms": 20.454400181770325
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_29": {
+      "mean_ms": 0.013047466667679449,
+      "std_ms": 0.0005529571798839146,
+      "count": 120,
+      "total_ms": 1.5656960001215339
+    },
+    "__mye63413+__mye63401+__mye63389_myl2_30": {
+      "mean_ms": 0.12096853411446015,
+      "std_ms": 0.0037969398532639795,
+      "count": 120,
+      "total_ms": 14.516224093735218
+    },
+    "_gemm_mha_v2_myl2_31": {
+      "mean_ms": 0.17483093502620856,
+      "std_ms": 0.005445416187117743,
+      "count": 120,
+      "total_ms": 20.979712203145027
+    },
+    "/blocks.4/attn/proj/MatMul_myl2_32": {
+      "mean_ms": 0.04402346679319938,
+      "std_ms": 0.0014451093173478817,
+      "count": 120,
+      "total_ms": 5.282816015183926
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_33": {
+      "mean_ms": 0.013115733310890694,
+      "std_ms": 0.000482038742340215,
+      "count": 120,
+      "total_ms": 1.5738879973068833
+    },
+    "__myl_Fc_myl2_34": {
+      "mean_ms": 0.19880959801375866,
+      "std_ms": 0.0063408797541885265,
+      "count": 120,
+      "total_ms": 23.85715176165104
+    },
+    "/blocks.4/mlp/fc2/MatMul_myl2_35": {
+      "mean_ms": 0.17099093571305274,
+      "std_ms": 0.004594675408123407,
+      "count": 120,
+      "total_ms": 20.51891228556633
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_36": {
+      "mean_ms": 0.013141333288513125,
+      "std_ms": 0.00048271807166697236,
+      "count": 120,
+      "total_ms": 1.5769599946215749
+    },
+    "__mye63528+__mye63516+__mye63504_myl2_37": {
+      "mean_ms": 0.12115626695255438,
+      "std_ms": 0.0037460843041920485,
+      "count": 120,
+      "total_ms": 14.538752034306526
+    },
+    "_gemm_mha_v2_myl2_38": {
+      "mean_ms": 0.17479680242637793,
+      "std_ms": 0.005478797481848371,
+      "count": 120,
+      "total_ms": 20.975616291165352
+    },
+    "/blocks.5/attn/proj/MatMul_myl2_39": {
+      "mean_ms": 0.044142933438221614,
+      "std_ms": 0.0013852154289809473,
+      "count": 120,
+      "total_ms": 5.297152012586594
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_40": {
+      "mean_ms": 0.01321813326018552,
+      "std_ms": 0.0004945652632009334,
+      "count": 120,
+      "total_ms": 1.5861759912222624
+    },
+    "__myl_Fc_myl2_41": {
+      "mean_ms": 0.19899733227988084,
+      "std_ms": 0.006257207763729659,
+      "count": 120,
+      "total_ms": 23.8796798735857
+    },
+    "/blocks.5/mlp/fc2/MatMul_myl2_42": {
+      "mean_ms": 0.1718101345002651,
+      "std_ms": 0.004779610839584905,
+      "count": 120,
+      "total_ms": 20.617216140031815
+    },
+    "__myl_MulAddCastMeanSubMulMean_myl2_43": {
+      "mean_ms": 0.022178133390843867,
+      "std_ms": 0.0008094983791821825,
+      "count": 120,
+      "total_ms": 2.661376006901264
+    },
+    "__myl_AddSqrtDivMulCastMulAddMulAddMoveSlicTranResh_myl2_44": {
+      "mean_ms": 0.03365546694646279,
+      "std_ms": 0.0010403670633367887,
+      "count": 120,
+      "total_ms": 4.038656033575535
+    },
+    "__mye63643+__mye63631+__mye63619_myl2_45": {
+      "mean_ms": 0.12084053400903941,
+      "std_ms": 0.003747279500628748,
+      "count": 120,
+      "total_ms": 14.500864081084728
+    },
+    "_gemm_mha_v2_myl2_46": {
+      "mean_ms": 0.17481386822958786,
+      "std_ms": 0.005568311451710462,
+      "count": 120,
+      "total_ms": 20.977664187550545
+    },
+    "/blocks.6/attn/proj/MatMul_myl2_47": {
+      "mean_ms": 0.0441429334692657,
+      "std_ms": 0.0014649276490055875,
+      "count": 120,
+      "total_ms": 5.297152016311884
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_48": {
+      "mean_ms": 0.013363199937157334,
+      "std_ms": 0.000526306755070389,
+      "count": 120,
+      "total_ms": 1.60358399245888
+    },
+    "__myl_Fc_myl2_49": {
+      "mean_ms": 0.19934719838202,
+      "std_ms": 0.006172608136004484,
+      "count": 120,
+      "total_ms": 23.9216638058424
+    },
+    "/blocks.6/mlp/fc2/MatMul_myl2_50": {
+      "mean_ms": 0.1701973351339499,
+      "std_ms": 0.0046830428179361495,
+      "count": 120,
+      "total_ms": 20.42368021607399
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_51": {
+      "mean_ms": 0.013081599997046093,
+      "std_ms": 0.000536379386046802,
+      "count": 120,
+      "total_ms": 1.5697919996455312
+    },
+    "__mye63758+__mye63746+__mye63734_myl2_52": {
+      "mean_ms": 0.12080640060206255,
+      "std_ms": 0.0037565176190004724,
+      "count": 120,
+      "total_ms": 14.496768072247505
+    },
+    "_gemm_mha_v2_myl2_53": {
+      "mean_ms": 0.21407573521137238,
+      "std_ms": 0.42817208878836355,
+      "count": 120,
+      "total_ms": 25.689088225364685
+    },
+    "/blocks.7/attn/proj/MatMul_myl2_54": {
+      "mean_ms": 0.044057600075999896,
+      "std_ms": 0.0013117763931493602,
+      "count": 120,
+      "total_ms": 5.2869120091199875
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_55": {
+      "mean_ms": 0.013013333346073826,
+      "std_ms": 0.0005822083292841069,
+      "count": 120,
+      "total_ms": 1.5616000015288591
+    },
+    "__myl_Fc_myl2_56": {
+      "mean_ms": 0.19879253047207993,
+      "std_ms": 0.006208982887213889,
+      "count": 120,
+      "total_ms": 23.85510365664959
+    },
+    "/blocks.7/mlp/fc2/MatMul_myl2_57": {
+      "mean_ms": 0.17122133411467075,
+      "std_ms": 0.0049018410770542194,
+      "count": 120,
+      "total_ms": 20.54656009376049
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_58": {
+      "mean_ms": 0.013201066618785262,
+      "std_ms": 0.00047288822776865455,
+      "count": 120,
+      "total_ms": 1.5841279942542315
+    },
+    "__mye63873+__mye63861+__mye63849_myl2_59": {
+      "mean_ms": 0.1208746671055754,
+      "std_ms": 0.0037749264142438407,
+      "count": 120,
+      "total_ms": 14.504960052669048
+    },
+    "_gemm_mha_v2_myl2_60": {
+      "mean_ms": 0.17466880107919375,
+      "std_ms": 0.0055737687474586815,
+      "count": 120,
+      "total_ms": 20.96025612950325
+    },
+    "/blocks.8/attn/proj/MatMul_myl2_61": {
+      "mean_ms": 0.04410026681919892,
+      "std_ms": 0.0015057404349923542,
+      "count": 120,
+      "total_ms": 5.292032018303871
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_62": {
+      "mean_ms": 0.01325226661283523,
+      "std_ms": 0.0012137446956075686,
+      "count": 120,
+      "total_ms": 1.5902719935402274
+    },
+    "__myl_Fc_myl2_63": {
+      "mean_ms": 0.1985791983703772,
+      "std_ms": 0.0060712669592730304,
+      "count": 120,
+      "total_ms": 23.829503804445267
+    },
+    "/blocks.8/mlp/fc2/MatMul_myl2_64": {
+      "mean_ms": 0.17047893442213535,
+      "std_ms": 0.004428101268642934,
+      "count": 120,
+      "total_ms": 20.457472130656242
+    },
+    "__myl_MulAddCastMeanSubMulMean_myl2_65": {
+      "mean_ms": 0.022152533382177354,
+      "std_ms": 0.0007352547505773694,
+      "count": 120,
+      "total_ms": 2.6583040058612823
+    },
+    "__myl_AddSqrtDivMulCastMulAddMulAddMoveSlicTranResh_myl2_66": {
+      "mean_ms": 0.033706666948273775,
+      "std_ms": 0.0009308768645464598,
+      "count": 120,
+      "total_ms": 4.044800033792853
+    },
+    "__mye63988+__mye63976+__mye63964_myl2_67": {
+      "mean_ms": 0.12096000084032615,
+      "std_ms": 0.003371853913050318,
+      "count": 120,
+      "total_ms": 14.515200100839138
+    },
+    "_gemm_mha_v2_myl2_68": {
+      "mean_ms": 0.17491626838843027,
+      "std_ms": 0.005000823641831141,
+      "count": 120,
+      "total_ms": 20.989952206611633
+    },
+    "/blocks.9/attn/proj/MatMul_myl2_69": {
+      "mean_ms": 0.04407466674844424,
+      "std_ms": 0.0013826898488764317,
+      "count": 120,
+      "total_ms": 5.288960009813309
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_70": {
+      "mean_ms": 0.013747199989544849,
+      "std_ms": 0.0005555850322554208,
+      "count": 120,
+      "total_ms": 1.6496639987453818
+    },
+    "__myl_Fc_myl2_71": {
+      "mean_ms": 0.19903146475553513,
+      "std_ms": 0.005466556109418594,
+      "count": 120,
+      "total_ms": 23.883775770664215
+    },
+    "/blocks.9/mlp/fc2/MatMul_myl2_72": {
+      "mean_ms": 0.1723050686220328,
+      "std_ms": 0.004630195597325977,
+      "count": 120,
+      "total_ms": 20.676608234643936
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_73": {
+      "mean_ms": 0.013218133291229606,
+      "std_ms": 0.0004945652690929954,
+      "count": 120,
+      "total_ms": 1.5861759949475527
+    },
+    "__mye64103+__mye64091+__mye64079_myl2_74": {
+      "mean_ms": 0.12095146719366312,
+      "std_ms": 0.0033889682394251694,
+      "count": 120,
+      "total_ms": 14.514176063239574
+    },
+    "_gemm_mha_v2_myl2_75": {
+      "mean_ms": 0.1749162681400776,
+      "std_ms": 0.005016524865856094,
+      "count": 120,
+      "total_ms": 20.98995217680931
+    },
+    "/blocks.10/attn/proj/MatMul_myl2_76": {
+      "mean_ms": 0.044177066814154384,
+      "std_ms": 0.0014378350496699924,
+      "count": 120,
+      "total_ms": 5.301248017698526
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_77": {
+      "mean_ms": 0.01319253327480207,
+      "std_ms": 0.00044208912371417487,
+      "count": 120,
+      "total_ms": 1.5831039929762483
+    },
+    "__myl_Fc_myl2_78": {
+      "mean_ms": 0.19866453123589356,
+      "std_ms": 0.005461059400670893,
+      "count": 120,
+      "total_ms": 23.839743748307228
+    },
+    "/blocks.10/mlp/fc2/MatMul_myl2_79": {
+      "mean_ms": 0.17128960142532984,
+      "std_ms": 0.004641936829726314,
+      "count": 120,
+      "total_ms": 20.55475217103958
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_80": {
+      "mean_ms": 0.013115733326412738,
+      "std_ms": 0.0004820387321733476,
+      "count": 120,
+      "total_ms": 1.5738879991695285
+    },
+    "__mye64218+__mye64206+__mye64194_myl2_81": {
+      "mean_ms": 0.1212160004923741,
+      "std_ms": 0.0035301086379879343,
+      "count": 120,
+      "total_ms": 14.545920059084892
+    },
+    "_gemm_mha_v2_myl2_82": {
+      "mean_ms": 0.1750357345988353,
+      "std_ms": 0.005073250525799723,
+      "count": 120,
+      "total_ms": 21.004288151860237
+    },
+    "/blocks.11/attn/proj/MatMul_myl2_83": {
+      "mean_ms": 0.04416000011066596,
+      "std_ms": 0.0013256913206915553,
+      "count": 120,
+      "total_ms": 5.299200013279915
+    },
+    "__myl_MulAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl2_84": {
+      "mean_ms": 0.013149866616974275,
+      "std_ms": 0.0004765695157232882,
+      "count": 120,
+      "total_ms": 1.577983994036913
+    },
+    "__myl_Fc_myl2_85": {
+      "mean_ms": 0.19904853155215582,
+      "std_ms": 0.005690933000876083,
+      "count": 120,
+      "total_ms": 23.885823786258698
+    },
+    "/blocks.11/mlp/fc2/MatMul_myl2_86": {
+      "mean_ms": 0.17201493481794994,
+      "std_ms": 0.004344430442829117,
+      "count": 120,
+      "total_ms": 20.64179217815399
+    },
+    "__myl_MulAddCastMeanSubMulMean_myl2_87": {
+      "mean_ms": 0.016085333214141427,
+      "std_ms": 0.0007975359791818842,
+      "count": 120,
+      "total_ms": 1.9302399856969714
+    },
+    "__myl_AddSqrtDivMulCastMulMoveAddSlicTranResh_myl2_88": {
+      "mean_ms": 0.021546666556969286,
+      "std_ms": 0.0007753134027441038,
+      "count": 120,
+      "total_ms": 2.585599986836314
+    },
+    "/depth_head/projects.0/Conv": {
+      "mean_ms": 0.022681600227952004,
+      "std_ms": 0.0007075983175548153,
+      "count": 120,
+      "total_ms": 2.7217920273542404
+    },
+    "/depth_head/resize_layers.0/ConvTranspose": {
+      "mean_ms": 0.039333866971234484,
+      "std_ms": 0.01673172610028522,
+      "count": 120,
+      "total_ms": 4.720064036548138
+    },
+    "/depth_head/layer1_rn/Conv + PWN(/depth_head/refinenet1/resConfUnit1/activation/Relu)": {
+      "mean_ms": 0.13233973228683074,
+      "std_ms": 0.005380013808228551,
+      "count": 120,
+      "total_ms": 15.88076787441969
+    },
+    "/depth_head/refinenet1/resConfUnit1/conv1/Conv + /depth_head/refinenet1/resConfUnit1/activation_1/Relu": {
+      "mean_ms": 0.14418773328264553,
+      "std_ms": 0.003599317148348571,
+      "count": 120,
+      "total_ms": 17.302527993917465
+    },
+    "/depth_head/refinenet1/resConfUnit1/conv2/Conv + /depth_head/refinenet1/resConfUnit1/Add": {
+      "mean_ms": 0.143701333925128,
+      "std_ms": 0.0038932961050750356,
+      "count": 120,
+      "total_ms": 17.244160071015358
+    },
+    "/depth_head/projects.1/Conv": {
+      "mean_ms": 0.02437120055158933,
+      "std_ms": 0.0007069801432437227,
+      "count": 120,
+      "total_ms": 2.9245440661907196
+    },
+    "/depth_head/resize_layers.1/ConvTranspose": {
+      "mean_ms": 0.022621866843352715,
+      "std_ms": 0.001507263249343107,
+      "count": 120,
+      "total_ms": 2.714624021202326
+    },
+    "/depth_head/layer2_rn/Conv + PWN(/depth_head/refinenet2/resConfUnit1/activation/Relu)": {
+      "mean_ms": 0.07592960217346748,
+      "std_ms": 0.001959249720441884,
+      "count": 120,
+      "total_ms": 9.111552260816097
+    },
+    "/depth_head/refinenet2/resConfUnit1/conv1/Conv + /depth_head/refinenet2/resConfUnit1/activation_1/Relu": {
+      "mean_ms": 0.05015893261879682,
+      "std_ms": 0.0014175604876512148,
+      "count": 120,
+      "total_ms": 6.019071914255619
+    },
+    "/depth_head/refinenet2/resConfUnit1/conv2/Conv + /depth_head/refinenet2/resConfUnit1/Add": {
+      "mean_ms": 0.04941653373340766,
+      "std_ms": 0.0013186409281012077,
+      "count": 120,
+      "total_ms": 5.929984048008919
+    },
+    "/depth_head/projects.2/Conv": {
+      "mean_ms": 0.02771626675191025,
+      "std_ms": 0.0006574545794683474,
+      "count": 120,
+      "total_ms": 3.32595201022923
+    },
+    "/depth_head/layer3_rn/Conv + PWN(/depth_head/refinenet3/resConfUnit1/activation/Relu)": {
+      "mean_ms": 0.047650134470313785,
+      "std_ms": 0.0013541948481364898,
+      "count": 120,
+      "total_ms": 5.7180161364376545
+    },
+    "/depth_head/refinenet3/resConfUnit1/conv1/Conv + /depth_head/refinenet3/resConfUnit1/activation_1/Relu": {
+      "mean_ms": 0.02378240056956808,
+      "std_ms": 0.0007296375956151359,
+      "count": 120,
+      "total_ms": 2.8538880683481693
+    },
+    "/depth_head/refinenet3/resConfUnit1/conv2/Conv + /depth_head/refinenet3/resConfUnit1/Add": {
+      "mean_ms": 0.023372800337771574,
+      "std_ms": 0.004030760478463577,
+      "count": 120,
+      "total_ms": 2.804736040532589
+    },
+    "/depth_head/projects.3/Conv": {
+      "mean_ms": 0.04497920023277402,
+      "std_ms": 0.0033656295182742354,
+      "count": 120,
+      "total_ms": 5.397504027932882
+    },
+    "/depth_head/resize_layers.3/Conv": {
+      "mean_ms": 0.10758826583623886,
+      "std_ms": 0.0011274342506414551,
+      "count": 120,
+      "total_ms": 12.910591900348663
+    },
+    "/depth_head/layer4_rn/Conv": {
+      "mean_ms": 0.03874986609444022,
+      "std_ms": 0.0009623758865729587,
+      "count": 120,
+      "total_ms": 4.649983931332827
+    },
+    "Reformatting CopyNode for Input Tensor 0 to PWN(/depth_head/refinenet4/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "PWN(/depth_head/refinenet4/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.006485333510984977,
+      "std_ms": 0.000482718173192561,
+      "count": 120,
+      "total_ms": 0.7782400213181973
+    },
+    "Reformatting CopyNode for Input Tensor 0 to /depth_head/refinenet4/resConfUnit2/conv1/Conv + /depth_head/refinenet4/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "/depth_head/refinenet4/resConfUnit2/conv1/Conv + /depth_head/refinenet4/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.01580373317313691,
+      "std_ms": 0.0008012251169533345,
+      "count": 120,
+      "total_ms": 1.8964479807764292
+    },
+    "/depth_head/refinenet4/resConfUnit2/conv2/Conv + /depth_head/refinenet4/resConfUnit2/Add": {
+      "mean_ms": 0.013585066671172779,
+      "std_ms": 0.0006440264642224196,
+      "count": 120,
+      "total_ms": 1.6302080005407333
+    },
+    "/depth_head/refinenet4/Resize": {
+      "mean_ms": 0.009557333386813601,
+      "std_ms": 0.013250373303746609,
+      "count": 120,
+      "total_ms": 1.146880006417632
+    },
+    "/depth_head/refinenet4/out_conv/Conv + /depth_head/refinenet3/Add": {
+      "mean_ms": 0.027750400143365064,
+      "std_ms": 0.026106109999342483,
+      "count": 120,
+      "total_ms": 3.330048017203808
+    },
+    "Reformatting CopyNode for Input Tensor 0 to PWN(/depth_head/refinenet3/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "PWN(/depth_head/refinenet3/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.016933866737720866,
+      "std_ms": 0.011213060469610816,
+      "count": 120,
+      "total_ms": 2.032064008526504
+    },
+    "Reformatting CopyNode for Input Tensor 0 to /depth_head/refinenet3/resConfUnit2/conv1/Conv + /depth_head/refinenet3/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "/depth_head/refinenet3/resConfUnit2/conv1/Conv + /depth_head/refinenet3/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.04432213332814475,
+      "std_ms": 0.012100356925838246,
+      "count": 120,
+      "total_ms": 5.31865599937737
+    },
+    "/depth_head/refinenet3/resConfUnit2/conv2/Conv + /depth_head/refinenet3/resConfUnit2/Add": {
+      "mean_ms": 0.02368773364772399,
+      "std_ms": 0.003387078126881756,
+      "count": 120,
+      "total_ms": 2.842528037726879
+    },
+    "/depth_head/refinenet3/Resize": {
+      "mean_ms": 0.011161066680991401,
+      "std_ms": 0.010173776914252787,
+      "count": 120,
+      "total_ms": 1.3393280017189682
+    },
+    "/depth_head/refinenet3/out_conv/Conv + /depth_head/refinenet2/Add": {
+      "mean_ms": 0.02140159987223645,
+      "std_ms": 0.016694340965889266,
+      "count": 120,
+      "total_ms": 2.568191984668374
+    },
+    "Reformatting CopyNode for Input Tensor 0 to PWN(/depth_head/refinenet2/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "PWN(/depth_head/refinenet2/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.00843093335085238,
+      "std_ms": 0.004780616594221601,
+      "count": 120,
+      "total_ms": 1.0117120021022856
+    },
+    "Reformatting CopyNode for Input Tensor 0 to /depth_head/refinenet2/resConfUnit2/conv1/Conv + /depth_head/refinenet2/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    },
+    "/depth_head/refinenet2/resConfUnit2/conv1/Conv + /depth_head/refinenet2/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.05382826660449306,
+      "std_ms": 0.014244114226503698,
+      "count": 120,
+      "total_ms": 6.459391992539167
+    },
+    "/depth_head/refinenet2/resConfUnit2/conv2/Conv + /depth_head/refinenet2/resConfUnit2/Add": {
+      "mean_ms": 0.05003093369305134,
+      "std_ms": 0.0067112966540182435,
+      "count": 120,
+      "total_ms": 6.003712043166161
+    },
+    "/depth_head/refinenet2/Resize": {
+      "mean_ms": 0.01676079995619754,
+      "std_ms": 0.0028695437262895554,
+      "count": 120,
+      "total_ms": 2.011295994743705
+    },
+    "/depth_head/refinenet2/out_conv/Conv + /depth_head/refinenet1/Add + PWN(/depth_head/refinenet1/resConfUnit2/activation/Relu)": {
+      "mean_ms": 0.07017680120964845,
+      "std_ms": 0.002807056773167674,
+      "count": 120,
+      "total_ms": 8.421216145157814
+    },
+    "/depth_head/refinenet1/resConfUnit2/conv1/Conv + /depth_head/refinenet1/resConfUnit2/activation_1/Relu": {
+      "mean_ms": 0.1419861328477661,
+      "std_ms": 0.004028230339199235,
+      "count": 120,
+      "total_ms": 17.03833594173193
+    },
+    "/depth_head/refinenet1/resConfUnit2/conv2/Conv + /depth_head/refinenet1/resConfUnit2/Add": {
+      "mean_ms": 0.1430442664772272,
+      "std_ms": 0.0038920896733388006,
+      "count": 120,
+      "total_ms": 17.165311977267265
+    },
+    "/depth_head/refinenet1/Resize": {
+      "mean_ms": 0.08511999901384115,
+      "std_ms": 0.0007883528106965615,
+      "count": 120,
+      "total_ms": 10.214399881660938
+    },
+    "/depth_head/refinenet1/out_conv/Conv": {
+      "mean_ms": 0.17882453029354414,
+      "std_ms": 0.0019245268201121862,
+      "count": 120,
+      "total_ms": 21.458943635225296
+    },
+    "/depth_head/output_conv1/Conv": {
+      "mean_ms": 0.31092906519770624,
+      "std_ms": 0.007081898617322356,
+      "count": 120,
+      "total_ms": 37.31148782372475
+    },
+    "/depth_head/Resize": {
+      "mean_ms": 0.1796010644485553,
+      "std_ms": 0.0011317852399119433,
+      "count": 120,
+      "total_ms": 21.552127733826637
+    },
+    "/depth_head/output_conv2/output_conv2.0/Conv + /depth_head/output_conv2/output_conv2.1/Relu": {
+      "mean_ms": 0.38246399934093156,
+      "std_ms": 0.0036420443768656456,
+      "count": 120,
+      "total_ms": 45.89567992091179
+    },
+    "/depth_head/output_conv2/output_conv2.2/Conv + /Relu": {
+      "mean_ms": 0.07405226926008861,
+      "std_ms": 0.0018125253515055022,
+      "count": 120,
+      "total_ms": 8.886272311210632
+    },
+    "Reformatting CopyNode for Input Tensor 0 to /Squeeze": {
+      "mean_ms": 0.012620800345515212,
+      "std_ms": 0.0048737137671859936,
+      "count": 120,
+      "total_ms": 1.5144960414618254
+    },
+    "/Squeeze": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "count": 120,
+      "total_ms": 0.0
+    }
+  }
+}

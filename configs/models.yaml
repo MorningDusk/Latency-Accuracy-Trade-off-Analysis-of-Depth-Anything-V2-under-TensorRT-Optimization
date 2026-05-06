@@ -1,0 +1,22 @@
+models:
+  vits:
+    encoder: vits
+    features: 64
+    out_channels: [48, 96, 192, 384]
+    checkpoint: checkpoints/depth_anything_v2_vits.pth
+    params_M: 24.8
+  vitb:
+    encoder: vitb
+    features: 128
+    out_channels: [96, 192, 384, 768]
+    checkpoint: checkpoints/depth_anything_v2_vitb.pth
+    params_M: 97.5
+  vitl:
+    encoder: vitl
+    features: 256
+    out_channels: [256, 512, 1024, 1024]
+    checkpoint: checkpoints/depth_anything_v2_vitl.pth
+    params_M: 335.3
+
+input_size: 518
+precisions: [fp32, fp16]

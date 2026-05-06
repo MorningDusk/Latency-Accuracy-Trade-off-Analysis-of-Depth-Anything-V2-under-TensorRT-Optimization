@@ -1,0 +1,47 @@
+{
+  "model": "vitb",
+  "precision": "fp32",
+  "total_ms": 59.72925052643985,
+  "categories": {
+    "Backbone_PatchEmbed": {
+      "total_ms_per_inference": 0.4023770609870553,
+      "layer_count": 2,
+      "percentage": 0.6736683575310197
+    },
+    "DPT_Head": {
+      "total_ms_per_inference": 9.323844274051954,
+      "layer_count": 62,
+      "percentage": 15.610181262737669
+    },
+    "Other": {
+      "total_ms_per_inference": 1.2855637018879256,
+      "layer_count": 21,
+      "percentage": 2.152318488106352
+    },
+    "Backbone_Norm": {
+      "total_ms_per_inference": 1.006037333266189,
+      "layer_count": 25,
+      "percentage": 1.6843294104633957
+    },
+    "Backbone_Other": {
+      "total_ms_per_inference": 5.870651734868685,
+      "layer_count": 12,
+      "percentage": 9.828771804645317
+    },
+    "Backbone_Attention": {
+      "total_ms_per_inference": 28.973422809193522,
+      "layer_count": 48,
+      "percentage": 48.507929622133965
+    },
+    "Backbone_FFN": {
+      "total_ms_per_inference": 12.867353612184525,
+      "layer_count": 24,
+      "percentage": 21.542801054382295
+    },
+    "Tensor_Ops": {
+      "total_ms_per_inference": 0.0,
+      "layer_count": 1,
+      "percentage": 0.0
+    }
+  }
+}
