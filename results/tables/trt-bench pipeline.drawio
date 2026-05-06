@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="페이지-1" id="eR_ixUd6JlY0i-YNP4-O">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="alvQ8CqqYAJDIgBOTQtr-1" parent="1" style="rounded=1;html=1;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=auto;fontStyle=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 20px;&quot;&gt;Depth Anything V2 Variants&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="720" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alvQ8CqqYAJDIgBOTQtr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=auto;" value="" vertex="1">
+          <mxGeometry height="160" width="720" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="alvQ8CqqYAJDIgBOTQtr-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=auto;" value="" vertex="1">
+          <mxGeometry height="160" width="720" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="alvQ8CqqYAJDIgBOTQtr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;h3&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ViT-S&lt;br&gt;24.8M params&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="70" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
